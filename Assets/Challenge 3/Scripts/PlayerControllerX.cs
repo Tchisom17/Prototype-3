@@ -71,7 +71,7 @@ public class PlayerControllerX : MonoBehaviour
             // fireworksParticle.transform.position = transform.position;
             // fireworksParticle.Play();
             playerAudio.PlayOneShot(bounceSound, 1.0f);
-            playerRb.AddForce(Vector3.up * 10, ForceMode.Impulse);
+            playerRb.AddForce(Vector3.up * 15, ForceMode.Impulse);
             // Destroy(other.gameObject);
         }
     }
